@@ -1,0 +1,36 @@
+
+.container {
+padding: 20px;
+height: 300px;
+width: 900px;
+opacity: 0.9;
+background: url(https://media.wired.com/photos/5a99cb6a3ff74b54f27bad32/master/pass/Oyster_book_river.png) enter/cover;
+
+
+}
+
+#book-form {
+  font-size: 10px;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  height: 300px;
+}
+
+.form-control  {
+background:  lightgray;
+}
+
+.form-group{
+
+}
+
+.table tr {
+  font-size: 13px;
+}
+
+.btn-toolbar {
+
+  position: absolute;
+  bottom: 0;
+  margin-left:900px;
+}
