@@ -34,3 +34,27 @@ background:  lightgray;
   bottom: 0;
   margin-left:900px;
 }
+
+.navbar {
+  height: 40px;
+}
+
+.btn  {
+  height: 30px;
+ 
+}
+
+.form-inline{
+  display: block;
+}
+
+.form-inline .form-control {
+  height: 30px;
+
+}
+
+.form-inline .form-control  .search span  {
+  height: 100px;
+  width: 100px;
+
+}
