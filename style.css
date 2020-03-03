@@ -1,60 +1,98 @@
 
-.container {
-padding: 20px;
-height: 300px;
-width: 900px;
-opacity: 0.9;
-background: url(https://media.wired.com/photos/5a99cb6a3ff74b54f27bad32/master/pass/Oyster_book_river.png) enter/cover;
+/* Body */
 
-
-}
-
-#book-form {
-  font-size: 10px;
-  color:white;
+body {
+  padding: 0;
+  margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  height: 300px;
-}
-
-.form-control  {
-background:  lightgray;
-}
-
-.form-group{
-
-}
-
-.table tr {
-  font-size: 13px;
-}
-
-.btn-toolbar {
-
-  position: absolute;
-  bottom: 0;
-  margin-left:900px;
-}
-
-.navbar {
-  height: 40px;
-}
-
-.btn  {
-  height: 30px;
- 
-}
-
-.form-inline{
+  }
+  
+  .container {
+    display: block;
+    justify-content: center;
+  
+  }
+  
+  .main-title {
+    height:60px;
+  }
+  
+  h1.title {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  
+  .main-title .title {
+  margin-top: 12px; 
+  display: flex;
+  align-items: center;
+  
+  word-spacing: 30px;
+  
+  }
+  
+  .tommys {
+    color:red;
+    margin-left: 15px;
+  
+  }
+  
+  .fas {
+    color: red;
+    width: 50px;
+    margin-right: 40px;
+    word-spacing: 30px;
+    word-spacing: 30px;
+  }
+  
+  
+  #book-form {
+    margin-top: -15px;
+  }
+  
+  #book-form .form-control::placeholder {
+    color: gray;
+    opacity: 0.3;
+  }
+  
+  .fas:hover {
+    color:darkred;
+  }
+  
+  .form-group{
   display: block;
-}
-
-.form-inline .form-control {
-  height: 30px;
-
-}
-
-.form-inline .form-control  .search span  {
-  height: 100px;
-  width: 100px;
-
-}
+  }
+  
+  .form-group label{
+  color:white;
+  font-size: 10px;
+  letter-spacing: 20px;
+  margin-bottom: 5px;
+  }
+  
+  div.form-group{
+  margin-bottom: 0px;
+  }
+  
+  
+  h1.title {
+    letter-spacing: 10px;
+  }
+  
+  .form-group{
+    margin-top: 10px;
+   
+  }
+  
+  .btn {
+  float: left;
+  
+  width: 100%;
+  /* margin-bottom: 35px; */
+  }
+  
+  .table {
+    margin-top: 60px;
+    /* background-color: orange; */
+  
+  }
