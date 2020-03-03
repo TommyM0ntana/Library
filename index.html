@@ -4,49 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tommy's library</title>
+  <title>'Il Libro' Library Shop</title>
   <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
 <script src="https://kit.fontawesome.com/e61190632e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
   <!-- Title  -->
   <div class="container">
     <div class="main-title">
- 
      <h1 class="title"> 
-       <i class="fas fa-book-open"></i> 
-      Tommy's <span class="tommys"> Library </span></h1>
-</div>
+       <i class="fas fa-book-open"></i>'Il Libro'<span class="tommys">Library Shop</span></h1>
+ </div>
 <!-- Form -->
-
 <form id="book-form">
   <div class="form-group">
   <label for="title">TITLE</label>
 <input type="text" id="title" class="form-control" placeholder="Add title">
   </div>
-
 <form id="book-form">
     <div class="form-group">
     <label for="author">AUTHOR</label>
   <input type="text" id="author" class="form-control " placeholder="Add author">
     </div>
-
   <form id="book-form">
       <div class="form-group">
       <label for="isbn">ISBN#</label>
     <input type="text" id="isbn" class="form-control" placeholder="Add ISBN#" >
   </div>
-
-    
 <br>
 <input type="submit" value="Add Book" class="btn btn-danger btn-block">
     <!-- <button type="submit" value="Add book" class="btn btn-danger">Add Book</button> -->
  </form>
-
 <table class="table table-striped">
-
   <thead>
      <tr>
       <th>Title</th>
@@ -56,7 +46,6 @@
     </tr>
     </thead>
     <tbody id="book-list"></tbody>
-  
     </table>
    </div>
   <script src="app.js"></script>
